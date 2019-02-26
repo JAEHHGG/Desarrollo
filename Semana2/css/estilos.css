@@ -43,6 +43,16 @@
     margin: 50px 50px 50px 50px;
     }
 
+    .prácticas {
+    padding: 50px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
+    }
+
+    .lista {
+    padding: 50px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
+    }
+
 .navbar{ background:crimson;}
 
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
