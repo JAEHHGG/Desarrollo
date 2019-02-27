@@ -58,9 +58,14 @@ ul {
 
 .medium-image {
     width: 200px;
+
 }
 
-.navbar{ background:crimson;}
+.integrantes {
+    width: 150px;
+}
+
+.navbar{ background: #006655;}
 
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
 
