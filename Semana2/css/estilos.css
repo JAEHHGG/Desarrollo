@@ -1,57 +1,61 @@
 
-    p {
+p {
      font-style: normal;
      font-family: Merriweather;
      font-size: 20px;
     }
 
-    ul {
+ul {
      font-style: normal;
      font-family: Merriweather;
      font-size: 20px;
     }
 
-    .white-text {
+.white-text {
         color: #ffffff;
     }
 
-    .thick-green-border{
+.thick-green-border{
         border-color: #33cc33;
         border-width: thin
 
     }
-    .thick-blue-border {
+.thick-blue-border {
         border-color: #0066cc;
         border-width: 50px;
         border-style: solid;
         border-radius: 50%;
     }
 
-    .thick-lightgreen-border {
+.thick-lightgreen-border {
         border-color: #669999;
         border-width: 10px;
         border-style: solid;
         border-radius: 50%;
     }
 
-    .smaller-image {
+.smaller-image {
         width: 100px;
     }
 
-    .medium {
+.medium {
     padding: 50px 50px 50px 50px;
     margin: 50px 50px 50px 50px;
     }
 
-    .prácticas {
+.prácticas {
     padding: 50px 50px 50px 50px;
     margin: 50px 50px 50px 50px;
     }
 
-    .lista {
+.lista {
     padding: 50px 50px 50px 50px;
     margin: 50px 50px 50px 50px;
     }
+
+.medium-image {
+    width: 200px;
+}
 
 .navbar{ background:crimson;}
 
