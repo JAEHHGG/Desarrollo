@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="demoAngular" ng-controller="desarrolloController">
+
 <head>
     <meta charset="UTF-8">
     <title>AngularJs</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
     <script src="angular.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<h1>Demo AngularJs</h1>
+<br>
+<br>
+<br>
+<br>
+<h1 align="center">Demo AngularJs</h1>
+<img class="smaller-image center" src="http://www.aprende-facilmente.com/wp-content/uploads/2016/07/angularjs-logo.png">
+
 <body>
-    <div>
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="#licencia_"></a> </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="portfolio" href="#readme_"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="blog" href="#acercade_"></a> </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="team" href="#equipo_"></a> </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="contact" href="#contacto_"></a> </li>
+            </ul>
+        </div>
+    </nav>
+    <div align="center">
         Nombre: <input type="text" ng-model="nombre">
         <br>
         Apellido: <input type="text" ng-model="apellido">
@@ -16,4 +46,5 @@
         Resultado: <span>{{nombre + " " + apellido}}</span>
     </div>
 </body>
+
 </html>
