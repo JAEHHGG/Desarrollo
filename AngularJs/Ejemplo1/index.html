@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="DemoAngularJs">
+<!-- Algo importante es colocar la directiva (grupo de codigo que extiende las capacidades de html) de Angular: ng-app, que indica que el documento contiene una app de Angular. -->
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    <!-- Ponemos otro script con el documento controller.js -->
+    <script src="AngularJs/controller.js"></script>
+</head>
+<body ng-controller="PrimerController">
+   <!--Para probar que todo esta funcionando podemos hacer lo siguiente: Utilizar el operador de las dobles llaves. En Angular este operador de dobles llaves ejecuta lo que este adentro como javascript, para comprobar que efectivamente estamos trabajando con Js, podemos quitar las comiillas y es signo +, debería mostrar un error.-->
+    {{"Hola " + nombre}}
+</body>
+</html>
