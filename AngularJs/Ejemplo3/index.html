@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demoAngular" ng-controller="desarrolloController">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    <script src="angular.js"></script>
+</head>
+<h1>Demo AngularJs</h1>
+<body>
+    <div>
+        Nombre: <input type="text" ng-model="nombre">
+        <br>
+        Apellido: <input type="text" ng-model="apellido">
+        <br>
+        Resultado: <span>{{nombre + " " + apellido}}</span>
+    </div>
+</body>
+</html>
