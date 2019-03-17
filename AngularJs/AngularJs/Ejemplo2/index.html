@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app>
+
+  <head>
+    <script data-require="angular.js@1.2.0-rc3-nonmin" data-semver="1.2.0-rc3-nonmin" src="http://code.angularjs.org/1.2.0-rc.3/angular.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body ng-controller="miControlador">
+    <h1>Angular</h1>
+
+    <div class="mensaje">
+      <h3>Mensaje:</h3>
+      {{mensaje}}
+      <hr />
+      <input ng-model="mensaje" />
+      <br />
+      <button ng-click="generarMensaje()">Generar Mensaje</button>
+    </div>
+  </body>
+
+</html>
