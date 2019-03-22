@@ -1,0 +1,61 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+
+/* Estilos de fuente para el documento */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+    background-attachment: fixed;
+    background-image: url(img/cambiarimagen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Forma del Contenedor*/
+#contenedor-form {
+    width: 450px;
+    background-color: #f5f5f5;
+    padding: 35px 45px 35px 50px;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 9px;
+}
+
+/*Boton*/
+.button {
+    color: #f5f5f5;
+    border: 1px solid #563d7c;
+
+}
+
+
+
+/* Nav Bar */
+.navbar {
+    background: #006655;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
