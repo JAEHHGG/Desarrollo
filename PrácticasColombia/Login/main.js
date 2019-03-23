@@ -11,5 +11,4 @@ function validar() {
     } else if (!expresión.test(correo)) {
         alert("Correo No válido");
         return false;
-    }
 }

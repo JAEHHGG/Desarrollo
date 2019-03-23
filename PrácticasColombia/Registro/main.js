@@ -36,5 +36,9 @@ function validar() {
     } else if (isNaN(documento)) {
         alert("Número de Documento No válido");
         return false;
+    } else if (contraseña != repetir) {
+        alert("Las dos claves No son iguales");
+        return false;
     }
-}
+    }
+
