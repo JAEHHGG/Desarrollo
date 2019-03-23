@@ -7,38 +7,57 @@ function validar() {
     repetir = document.getElementById("repetir").value;
     documento = document.getElementById("documento").value;
 
-    expresión = /\w+@\w+\.+[a-z]/;
 
+    //* Expresión que permite validar el correo electrónico *//
+    expresión = /\w+@\w+\.+[a-z]/;
+    //* Condicional, valida que se debe escribir en todos los campos *//
     if (nombres === "" || apellidos === "" || correo === "" || contraseña === "" || repetir === "" || documento === "") {
         alert("Todos los campos son obligatorios");
         return false;
-    } else if (nombres.length > 30) {
+    }
+    //* Longitud del nombre menor a 30 caractéres *//
+    else if (nombres.length > 30) {
         alert("Los nombres son muy largos");
         return false;
-    } else if (apellidos.length > 80) {
+    }
+    //* Longitud de los apellidos menor a 80 caractéres *//
+    else if (apellidos.length > 80) {
         alert("Los apellidos son muy largos");
         return false;
-    } else if (correo.length > 100) {
+    }
+    //* Longitud del correo menor a 100 caractéres *//
+    else if (correo.length > 100) {
         alert("El correo que escribió no está permitido");
         return false;
-    } else if (!expresión.test(correo)) {
+    }
+    //* Validar que la expresión para el correo se aplique *//
+    else if (!expresión.test(correo)) {
         alert("Correo No válido");
         return false;
-    } else if (contraseña.length > 20) {
+    }
+    //* Longitud de la contraseña menor a 20 caractéres *//
+    else if (contraseña.length > 20) {
         alert("Contraseña muy larga");
         return false;
-    } else if (repetir.length > 20) {
+    }
+    //* Longitud de repetir contraseña menor a 20 caractéres *//
+    else if (repetir.length > 20) {
         alert("Contraseña muy larga");
         return false;
-    } else if (documento.length > 20) {
+    }
+    //* Longitud de la identificación menor a 20 caractéres *//
+    else if (documento.length > 20) {
         alert("Documento No válido");
         return false;
-    } else if (isNaN(documento)) {
+    }
+    //* Validación del campo Documento de identidad, solo se escriben números *//
+    else if (isNaN(documento)) {
         alert("Número de Documento No válido");
         return false;
-    } else if (contraseña != repetir) {
+    }
+    //* Se comprueba que las contraseñas sean las mismas *//
+    else if (contraseña != repetir) {
         alert("Las dos claves No son iguales");
         return false;
     }
-    }
-
+}
