@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Poppins');
+@import url('https://fonts.googleapis.com/css?family=poppins');
 
 
 /* Estilos de fuente para el documento */
@@ -11,13 +11,15 @@ body {
 
 /* Nav Bar */
 .navbar {
-    background: #006655;
+    background: #3f704d;
+    opacity: .9;
 }
 
 .nav-link,
 .navbar-brand {
-    color: #f4f4f4;
+    color: ghostwhite;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .nav-link {
@@ -25,8 +27,8 @@ body {
 }
 
 .nav-link:hover {
-    background: #f4f4f4;
-    color: #f97300;
+    background: #9dc183;
+    color: black;
 }
 
 .navbar-collapse {
@@ -68,20 +70,20 @@ body {
 
 /* Color del boton Primario  */
 .btn-primary {
-    background-color: #6648b1;
-    border: 1px solid #563d7c;
+    background-color: #0b6623;
+    border: 1px solid #0b6623;
 }
 
 /* Color cuando se pasa el cursor por el botón primario */
 .btn-primary:hover {
-    background-color: #563d7c;
-    border: 1px solid #563d7c;
+    background-color: #3f704d;
+    border: 1px solid #3f704d;
 }
 
 /* Tamaño Logo Prácticas Colombia */
 .tamaño-logo {
-    width: 200px;
-    height: 100px;
+    height: 60px;
+    width: 60px;
 }
 
 
@@ -114,7 +116,7 @@ body {
 /* Cambia el tamaño de los íconos */
 .fa-university,
 .fa-connectdevelop,
-.fa-youtube {
+.fa-graduation-cap {
     font-size: 4rem;
     margin: 1rem;
 }
@@ -128,7 +130,13 @@ body {
 
 /* Tamaño de las Fotos del Equipo de Trabajo */
 .tamaño-fotos-equipo {
+    margin: 0 auto;
+}
 
+/* Tamaño imagen de atrás */
+.tamaño-imagen-atras {
+    margin: 0 auto;
+    width: auto;
 }
 
 
@@ -167,7 +175,7 @@ hr.light {
 }
 
 footer a {
-    color: d5d5d5;
+    color: #d5d5d5;
 }
 
 /* Media Queries */
