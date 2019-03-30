@@ -27,7 +27,7 @@ function validar() {
     }
     //* Longitud del correo menor a 100 caractéres *//
     else if (correo.length > 100) {
-        alert("El correo que escribió no "hola"está permitido");
+        alert("El correo que escribió no está permitido");
         return false;
     }
     //* Validar que la expresión para el correo se aplique *//
@@ -48,7 +48,7 @@ function validar() {
     //* Longitud de la identificación menor a 20 caractéres *//
     else if (documento.length > 20) {
         alert("Documento No válido");
-        return false;"hola"
+        return false;
     }
     //* Validación del campo Documento de identidad, solo se escriben números *//
     else if (isNaN(documento)) {

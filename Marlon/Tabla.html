@@ -1,0 +1,201 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<script type = "text/javascript">
+            (function(document)){
+             'use strict';
+ var TableFilter = (function(Arr){
+	var _input;
+	function _onInputEvent(e){
+		_input = e.target;
+		var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+		Arr.forEach.call(tables, function(table){
+			Arr.forEach.call(table.tBodies, function(tbody){
+				Arr.forEach.call(tbody.rows, _filter);
+		    });
+		});
+	}
+	function _filter(row){
+		var text = row.textContent.toLowerCase(), val = _input.value.toLocaleLowerCase();
+		row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+	}
+	return{
+		init: function(){
+			var inputs = document.getElementsByClassName('table-Filter');
+			Arr.forEach.call(inputs, function(input){
+				input.oninput = _onInputEvent;
+			});
+		}
+	};
+})(Array.prototype);
+document.addEventListener('readystatechange',function(){
+	if (document.readyState === 'complete'){
+		TableFilter.init();
+	}
+});
+})(document);
+</script>
+
+<style type = "text/css">
+	body{
+
+	font: normal medium/1.4 Arial Narrow ;
+
+
+	}
+	table{
+		border-collapse: collapse;
+		width: 70%;
+		text-align: center;
+		margin: auto;
+	 }
+	 th, td{
+		padding: 0.25rem;
+		border: 1px solid #ccc;
+	}
+	tbody tr:nth-child(odd){
+		background: #eee;
+	}
+	.titulo{
+		padding: 0.5rem;
+		background: green;
+		color: white;
+		text-align: center;
+		font-size: 21px;
+	}
+	#cuadro{
+		width: 90%;
+		background: #F8F8F8;
+		padding: 25px;
+		margin: 5px auto;
+		border: 3px solid #D8D8D8;
+	}
+	#filtrar{
+		width: 300px;
+		font-size: 22px;
+		color: black;
+		padding-left: 20px;
+		text-align: center;
+		border-radius: 5px;
+		margin: 10px;
+		padding: 10px;
+	}
+	</style>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- Colocamos la etiqueta title para dar titulo a la pagina -->
+        <title>Prácticas Colombia</title>
+        <!-- Agregar icono de la página"-->
+        <link rel="shortcut icon" type="image/x-icon" href="Img/LogotipoPracticasColombia.ico">
+         <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+
+
+	</head>
+
+	<body>
+          <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand" href="#"> <img src="Img/LogotipoPracticasColombia.ico" width="50px" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="index.html">Inicio</a> </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="portfolio" href="Readme.html">Acerca de</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="team" href="EquipoDeTrabajo.html">Equipo</a>
+                    </li>
+                 <li class="nav-item">
+                    <a class="nav-link " data-value="blog" href="License.html">Licencia</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="mailto:atencionalusuario@practicascolombia.com">Contacto</a>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+
+		<div id = "cuadro">
+			<center>
+            <br>
+            <br>
+            <br>
+
+			<h1>Practicas Colombia</h1>
+			<h2>Buscar Empleos</h2>
+		<div class = "derecha" id = "Buscar"> buscar <input type = "search" class = "table-filter" data-table = "order-table" placeholder = "Filtrar"></div>
+			</center>
+
+		<div class = "datagrid">
+			<table class = "order-table table">
+				<thead>
+					<tr class = "titulo">
+						<td>
+							EMPRESA
+						</td>
+						<td>
+							CIUDAD
+						</td>
+						<td>
+							FACULTAD
+						</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>NESTLË</td><td>BOGOTA</td><td>INGENIERIA</td>
+					</tr>
+					<tr>
+						<td>COMPENSAR</td><td>MEDELLIN</td><td>MEDICINA</td>
+					</tr>
+					<tr>
+						<td>BANCOLOMBIA</td><td>BOGOTA</td><td>ECONOMIA</td>
+					</tr>
+					<tr>
+						<td>BRINSA S.A</td><td>SANTA MARTA</td><td>ADMINISTRACION</td>
+					</tr>
+					<tr>
+						<td>ECOPETROL</td><td>CALI</td><td>INGENIERIA</td>
+					</tr>
+					<tr>
+						<td>LÓREAL S.A</td><td>BOGOTA</td><td>IDIOMAS</td>
+					</tr>
+					<tr>
+						<td>UNIVERSIDAD EAN</td><td>BOGOTA</td><td>COMUNICACION</td>
+					</tr>
+					<tr>
+						<td>ECOPETROL</td><td>BOGOTA</td><td>INGENIERIA</td>
+					</tr>
+					<tr>
+						<td>CRUZ VERDE</td><td>META</td><td>MEDICINA</td>
+					</tr>
+					<tr>
+						<td>AVIANCA</td><td>BOGOTA</td><td>IDIOMAS</td>
+					</tr>
+					<tr>
+						<td>LATAM AIRLINES</td><td>BOGOTA</td><td>ADMINISTRACION</td>
+					</tr>
+					<tr>
+						<td>EVERIS</td><td>CALI</td><td>INGENIERIA</td>
+					</tr>
+					<tr>
+						<td>TEXMODA</td><td>MEDELLIN</td><td>ADMINISTRACION</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		</div>
+	</body>
+</html>
