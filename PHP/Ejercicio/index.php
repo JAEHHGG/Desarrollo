@@ -19,7 +19,7 @@
                 <div class="col-12 user-img">
                     <img src="img/cambiarlogo.png" alt="Logo Prácticas Colombia">
 
-                    <form action="validar.php" method="get" class="col-12" onsubmit="return validar();">
+                    <form action="val.php" method="get" class="col-12" onsubmit="return validar();">
                         <div class="form-group">
                             <input id="usuario" type="" class="form-control" placeholder="Correo electrónico" name="usuario" required>
                         </div>
