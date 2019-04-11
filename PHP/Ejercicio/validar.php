@@ -13,8 +13,8 @@
         "Sofia" => "Mora",
     ];
 
-    if (isset($pass[$_POST['usuario']])) {
-        if ($pass[$_POST['usuario']] == $_POST['pass']){
+    if (isset($pass[$_GET['usuario']])) {
+        if ($pass[$_GET['usuario']] == $_GET['pass']){
             echo 'Hola, Bienvenido';
         } else {
             echo 'Verificar Usuario y/o contraseña'
