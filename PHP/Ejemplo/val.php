@@ -14,7 +14,7 @@
     ];
 
     if (isset($contraseña[$_GET['usuario']])) {
-        if ($contraseña[$_GET['usuario']] == $_GET['pass']){
+        if ($contraseña[$_GET['usuario']] == $_GET['usuario']){
             echo 'Hola, Bienvenido';
         } else {
             echo 'Verificar Usuario y/o contraseña'
