@@ -24,7 +24,7 @@
                             <input id="usuario" type="" class="form-control" placeholder="Correo electrónico" name="usuario" required>
                         </div>
                         <div class="form-group">
-                            <input id="contraseña" type="" class="form-control" placeholder="Contraseña" name="contraseña" required>
+                            <input id="contraseña" type="password" class="form-control" placeholder="Contraseña" name="contraseña" required>
                         </div>
                         <button type="submit" class="btn"><i class="fas "></i>ENVIAR</button>
                     </form>
