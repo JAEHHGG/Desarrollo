@@ -6,15 +6,15 @@
 </head>
 <body>
     <?php
-    $pass = [
+    $contraseña = [
         "Julio" => "Hernández",
         "Juan" => "Perez",
         "Natalia" => "Morales",
         "Sofia" => "Mora",
     ];
 
-    if (isset($pass[$_GET['usuario']])) {
-        if ($pass[$_GET['usuario']] == $_GET['pass']){
+    if (isset($contraseña[$_GET['usuario']])) {
+        if ($contraseña[$_GET['usuario']] == $_GET['pass']){
             echo 'Hola, Bienvenido';
         } else {
             echo 'Verificar Usuario y/o contraseña'
