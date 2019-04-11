@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>validar</title>
 </head>
 <body>
     <?php
-    val = [
+    $val = [
         "Julio" => "Hernández",
         "Juan" => "Perez",
         "Natalia" => "Morales",
@@ -19,6 +19,8 @@
         } else {
             echo 'Verificar Usuario y/o contraseña'
         }
+    } else {
+        echo 'Usuario incorrecto'
     }
     ?>
 </body>
