@@ -1,9 +1,10 @@
 <html>
+
 	<head>
 		<meta charset = "utf-8">
 		<script type = "text/javascript">
-            (function(document)){
-             'use strict';
+(function(document)){
+ 'use strict';
  var TableFilter = (function(Arr){
 	var _input;
 	function _onInputEvent(e){
@@ -16,7 +17,7 @@
 		});
 	}
 	function _filter(row){
-		var text = row.textContent.toLowerCase(), val = _input.value.toLocaleLowerCase();
+		var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
 		row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
 	}
 	return{
@@ -38,10 +39,7 @@ document.addEventListener('readystatechange',function(){
 
 <style type = "text/css">
 	body{
-
 	font: normal medium/1.4 Arial Narrow ;
-
-
 	}
 	table{
 		border-collapse: collapse;
@@ -81,58 +79,11 @@ document.addEventListener('readystatechange',function(){
 		padding: 10px;
 	}
 	</style>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-         <!-- Colocamos la etiqueta title para dar titulo a la pagina -->
-        <title>Prácticas Colombia</title>
-        <!-- Agregar icono de la página"-->
-        <link rel="shortcut icon" type="image/x-icon" href="Img/LogotipoPracticasColombia.ico">
-         <!--Bootstrap-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styles.css">
-
-
 	</head>
 
 	<body>
-          <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg fixed-top ">
-        <a class="navbar-brand" href="#"> <img src="Img/LogotipoPracticasColombia.ico" width="50px" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-4">
-                <li class="nav-item">
-                    <a class="nav-link" data-value="about" href="index.html">Inicio</a> </li>
-                <li class="nav-item">
-                    <a class="nav-link " data-value="portfolio" href="Readme.html">Acerca de</a>
-                    </li>
-                <li class="nav-item">
-                    <a class="nav-link " data-value="team" href="EquipoDeTrabajo.html">Equipo</a>
-                    </li>
-                 <li class="nav-item">
-                    <a class="nav-link " data-value="blog" href="License.html">Licencia</a>
-                    </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="mailto:atencionalusuario@practicascolombia.com">Contacto</a>
-                    </li>
-            </ul>
-        </div>
-    </nav>
-
 		<div id = "cuadro">
 			<center>
-            <br>
-            <br>
-            <br>
-
 			<h1>Practicas Colombia</h1>
 			<h2>Buscar Empleos</h2>
 		<div class = "derecha" id = "Buscar"> buscar <input type = "search" class = "table-filter" data-table = "order-table" placeholder = "Filtrar"></div>
