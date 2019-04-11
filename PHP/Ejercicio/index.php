@@ -21,7 +21,7 @@
 
                     <form action="val.php" method="get" class="col-12" onsubmit="return validar();">
                         <div class="form-group">
-                            <input id="usuario" type="" class="form-control" placeholder="Correo electrónico" name="usuario" required>
+                            <input id="usuario" type="" class="form-control" placeholder="Usuario" name="usuario" required>
                         </div>
                         <div class="form-group">
                             <input id="contraseña" type="password" class="form-control" placeholder="Contraseña" name="contraseña" required>
