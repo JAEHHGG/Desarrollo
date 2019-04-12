@@ -6,8 +6,8 @@
 </head>
 <body>
     <?php
-    $ordenar = array('Julio', 'Natalia', 'Sofia', 'Marlon', 'Andres', 'Esteban', 'Camilo' 'Sebastian' 'Teresa');
-    sort($ordenar);
+    $ordenar = array('Julio', 'Natalia', 'Sofia');
+    rsort($ordenar);
 
     $ascendente = count($ordenar);
     for($x = 0; $x < $ascendente; $x++) {
