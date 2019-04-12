@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php
-    $ordenar = array('Julio', 'Natalia', 'Sofia');
+    $ordenar = array('Julio', 'Natalia', 'Sofia', 'Marlon', 'Andres', 'Esteban', 'Camilo' 'Sebastian' 'Teresa');
     sort($ordenar);
 
     $ascendente = count($ordenar);
