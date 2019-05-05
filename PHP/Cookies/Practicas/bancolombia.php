@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,9 +48,11 @@
     <br>
 
     <div>
-    <img class="imagenes" src="img/bancolombia.jpg" alt="Logo de Bancolombia">
+        <img class="imagenes" src="img/bancolombia.jpg" alt="Logo de Bancolombia">
     </div>
 
+    <a href="eliminar_cookie">Delete cookie</a>
 
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,7 +50,9 @@
 
     <img class="imagenes" src="img/avianca.png" alt="Logo de avianca">
 
+    <a href="eliminar_cookie">Delete cookie</a>
 
 
 </body>
+
 </html>

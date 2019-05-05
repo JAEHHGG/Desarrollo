@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,9 +48,11 @@
     <br>
 
     <div>
-    <img class="imagenes" src="img/loreal.png" alt="Logo de Loreal">
+        <img class="imagenes" src="img/loreal.png" alt="Logo de Loreal">
     </div>
 
+    <a href="eliminar_cookie">Delete cookie</a>
 
 </body>
+
 </html>
