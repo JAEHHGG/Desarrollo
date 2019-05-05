@@ -129,9 +129,9 @@
 
         </form>
 
-        <div class="boton">
+       <p class="center-align">
             <a class="waves-effect waves-light btn-large boton center-align">Seleccionar</a>
-        </div>
+        </p>
 
 
     </div>
