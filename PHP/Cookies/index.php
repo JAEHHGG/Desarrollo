@@ -61,7 +61,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="nestle.php?practica=ns" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -70,7 +70,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="compensar.php?practica=cp" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -79,7 +79,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="bancolombia.php?practica=bc" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -88,7 +88,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="brinsa.php?practica=br" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -97,7 +97,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="ecopetrol.php?practica=ec" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -106,7 +106,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="loreal.php?practica=lr" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -115,7 +115,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="ean.php?practica=ea" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -124,7 +124,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="cruzverde.php?practica=cv" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -133,7 +133,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="avianca.php?practica=av" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -142,7 +142,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="latam.php?practica=lt" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -151,7 +151,7 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="everis.php?practica=evr" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -160,8 +160,10 @@
                 </label>
             </p>
             <p class="center-align">
-                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+                <a href="texmoda.php?practica=tx" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
+            <br>
 
         </form>
 
