@@ -2,6 +2,7 @@
 
 /* Fondo */
 body {
+    color: black;
     font-family: 'poppins', sans-serif;
     background: url(img/imagen-fondo.jpg) no-repeat center center fixed;
     background-size: cover;
