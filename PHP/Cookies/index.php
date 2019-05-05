@@ -51,7 +51,7 @@
 
     <div class="container fluid">
 
-        <h2>Seleccione su práctica</h2>
+        <h3>Seleccione su práctica</h3>
 
         <form action="#">
             <p>
