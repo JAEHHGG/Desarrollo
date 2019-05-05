@@ -130,7 +130,7 @@
         </form>
 
         <div class="boton">
-            <a class="waves-effect waves-light btn-large boton">Seleccionar</a>
+            <a class="waves-effect waves-light btn-large boton center-align">Seleccionar</a>
         </div>
 
 
