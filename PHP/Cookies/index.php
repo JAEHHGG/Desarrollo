@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +16,7 @@
 
 <body>
 
-     <!-- Barra de Navegación -->
+    <!-- Barra de Navegación -->
     <nav class="navbar navbar-expand-lg fixed-top ">
         <a class="navbar-brand" href="#">PC</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,49 +31,101 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " data-value="blog" href="#acercade_">Servicios</a>
-                    </li>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link " data-value="team" href="#equipo_">Equipo</a>
-                    </li>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link " data-value="contact" href="#contacto_">Contacto</a>
-                    </li>
+                </li>
             </ul>
         </div>
     </nav>
 
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <!-- Tabla de prácticas -->
+    <!-- Seleccione práctica -->
 
+    <p>Seleccione su práctica</p>
+    <form action="#">
+        <p>
+            <label>
+                <input name="group1" type="radio" checked />
+                <span>Nestlé</span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="group1" type="radio" />
+                <span>Compensar</span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input class="with-gap" name="group1" type="radio" />
+                <span>Bancolombia</span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input name="group1" type="radio" disabled="disabled" />
+                <span>Brinsa S.A</span>
+            </label>
+        </p>
+                <p>
+            <label>
+                <input class="with-gap" name="group1" type="radio" />
+                <span>Ecopetrol</span>
+            </label>
+        </p>
+                <p>
+            <label>
+                <input class="with-gap" name="group1" type="radio" />
+                <span>Loreal</span>
+            </label>
+        </p>
+                <p>
+            <label>
+                <input class="with-gap" name="group1" type="radio" />
+                <span>EAN</span>
+            </label>
+        </p>
+                <p>
+            <label>
+                <input class="with-gap" name="group1" type="radio" />
+                <span>Cruz Verde</span>
+            </label>
+        </p>
+                <p>
+            <label>
+                <input class="with-gap" name="group1" type="radio" />
+                <span>Avianca</span>
+            </label>
+        </p>
+                <p>
+            <label>
+                <input class="with-gap" name="group1" type="radio" />
+                <span>Latam</span>
+            </label>
+        </p>
+                <p>
+            <label>
+                <input class="with-gap" name="group1" type="radio" />
+                <span>Everis</span>
+            </label>
+        </p>
+                <p>
+            <label>
+                <input class="with-gap" name="group1" type="radio" />
+                <span>Texmoda</span>
+            </label>
+        </p>
 
-       <form action="#">
-    <p>
-      <label>
-        <input name="group1" type="radio" checked />
-        <span>Red</span>
-      </label>
-    </p>
-    <p>
-      <label>
-        <input name="group1" type="radio" />
-        <span>Yellow</span>
-      </label>
-    </p>
-    <p>
-      <label>
-        <input class="with-gap" name="group1" type="radio"  />
-        <span>Green</span>
-      </label>
-    </p>
-    <p>
-      <label>
-        <input name="group1" type="radio" disabled="disabled" />
-        <span>Brown</span>
-      </label>
-    </p>
-  </form>
-
-    <script src="main.js" type="text/javascript"></script>
+    </form>
 
 </body>
+
 </html>
