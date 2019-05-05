@@ -47,7 +47,7 @@
     <br>
 
     <div>
-    <img class="imagenes" src="" alt="Logo de avianca">
+    <img class="imagenes" src="bancolombia.jpg" alt="Logo de Bancolombia">
     </div>
 
 
