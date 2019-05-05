@@ -133,7 +133,6 @@
             <a class="waves-effect waves-light btn-large boton center-align">Seleccionar</a>
         </p>
         <br>
-        <br>
 
     </div>
 
