@@ -50,7 +50,8 @@
     <div>
         <img class="imagenes" src="img/loreal.png" alt="Logo de Loreal">
     </div>
-
+    <br>
+    <br>
     <center>
         <p>
             <a href="eliminar_cookie.php">Eliminar Cookie</a>

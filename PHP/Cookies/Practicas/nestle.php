@@ -50,8 +50,8 @@
     <div>
         <img class="imagenes" src="img/nestle.png" alt="Logo de Nestle">
     </div>
-<br>
-
+    <br>
+    <br>
     <center>
         <p>
             <a href="eliminar_cookie.php">Eliminar Cookie</a>

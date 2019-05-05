@@ -50,7 +50,8 @@
     <div>
         <img class="imagenes" src="img/texmoda.png" alt="Logo de Texmoda">
     </div>
-
+    <br>
+    <br>
     <center>
         <p>
             <a href="eliminar_cookie.php">Eliminar Cookie</a>

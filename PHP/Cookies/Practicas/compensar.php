@@ -50,7 +50,8 @@
     <div>
         <img class="imagenes" src="img/compensar.png" alt="Logo de Compensar">
     </div>
-
+    <br>
+    <br>
     <center>
         <p>
             <a href="eliminar_cookie.php">Eliminar Cookie</a>

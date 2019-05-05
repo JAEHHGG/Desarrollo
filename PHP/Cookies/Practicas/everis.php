@@ -50,7 +50,8 @@
     <div>
         <img class="imagenes" src="img/everis.jpg" alt="Logo de Everis">
     </div>
-
+    <br>
+    <br>
     <center>
         <p>
             <a href="eliminar_cookie.php">Eliminar Cookie</a>

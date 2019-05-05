@@ -50,7 +50,8 @@
     <div>
         <img class="imagenes" src="img/ean.jpg" alt="Logo de EAN">
     </div>
-
+    <br>
+    <br>
     <center>
         <p>
             <a href="eliminar_cookie.php">Eliminar Cookie</a>
