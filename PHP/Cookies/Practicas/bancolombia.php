@@ -51,7 +51,11 @@
         <img class="imagenes" src="img/bancolombia.jpg" alt="Logo de Bancolombia">
     </div>
 
-    <a href="eliminar_cookie.php">Eliminar Cookie</a>
+    <center>
+        <p>
+            <a href="eliminar_cookie.php">Eliminar Cookie</a>
+        </p>
+    </center>
 
 </body>
 

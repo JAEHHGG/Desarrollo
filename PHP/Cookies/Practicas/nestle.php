@@ -52,7 +52,11 @@
     </div>
 <br>
 
-    <a href="eliminar_cookie.php">Eliminar Cookie</a>
+    <center>
+        <p>
+            <a href="eliminar_cookie.php">Eliminar Cookie</a>
+        </p>
+    </center>
 
 </body>
 

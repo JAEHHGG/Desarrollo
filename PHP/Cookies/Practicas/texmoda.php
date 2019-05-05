@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="Practicas/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
@@ -48,14 +48,14 @@
     <br>
 
     <div>
-        <img class="imagenes" src="" alt="Logo de avianca">
+        <img class="imagenes" src="img/texmoda.png" alt="Logo de Texmoda">
     </div>
 
-<center>
-    <p>
-    <a href="eliminar_cookie.php">Eliminar Cookie</a>
-    </p>
-</center>
+    <center>
+        <p>
+            <a href="eliminar_cookie.php">Eliminar Cookie</a>
+        </p>
+    </center>
 
 </body>
 

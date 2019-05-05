@@ -51,7 +51,11 @@
         <img class="imagenes" src="img/cruzverde.jpeg" alt="Logo de Cruz Verde">
     </div>
 
-    <a href="eliminar_cookie.php">Eliminar Cookie</a>
+    <center>
+        <p>
+            <a href="eliminar_cookie.php">Eliminar Cookie</a>
+        </p>
+    </center>
 
 </body>
 

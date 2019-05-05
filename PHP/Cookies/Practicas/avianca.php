@@ -50,7 +50,11 @@
 
     <img class="imagenes" src="img/avianca.png" alt="Logo de avianca">
 
-    <a href="eliminar_cookie.php">Eliminar Cookie</a>
+    <center>
+        <p>
+            <a href="eliminar_cookie.php">Eliminar Cookie</a>
+        </p>
+    </center>
 
 
 </body>
