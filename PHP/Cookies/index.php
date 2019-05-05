@@ -129,9 +129,8 @@
 
         </form>
 
-        <div class="boton"> <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                <i class="material-icons right">send</i>
-            </button>
+        <div class="boton">
+            <a class="waves-effect waves-light btn-large boton">Seleccionar</a>
         </div>
 
 
