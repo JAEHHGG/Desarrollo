@@ -56,7 +56,7 @@
         <form action="#">
             <p>
                 <label>
-                    <input class="black-text" name="group1" type="radio" checked />
+                    <input name="group1" type="radio" checked />
                     <span>Nestlé</span>
                 </label>
             </p>
@@ -129,10 +129,11 @@
 
         </form>
 
-       <p class="center-align">
+        <p class="center-align">
             <a class="waves-effect waves-light btn-large boton center-align">Seleccionar</a>
         </p>
-
+        <br>
+        <br>
 
     </div>
 
