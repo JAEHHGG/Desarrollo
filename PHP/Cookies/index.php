@@ -74,7 +74,7 @@
             </p>
             <p>
                 <label>
-                    <input name="group1" type="radio" disabled="disabled" />
+                    <input name="group1" type="radio" />
                     <span>Brinsa S.A</span>
                 </label>
             </p>
