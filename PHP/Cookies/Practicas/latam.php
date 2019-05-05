@@ -51,7 +51,7 @@
         <img class="imagenes" src="img/latam.png" alt="Logo de Latam">
     </div>
 
-    <a href="eliminar_cookie">Delete cookie</a>
+    <a href="eliminar_cookie.php">Eliminar Cookie</a>
 
 </body>
 

@@ -51,7 +51,7 @@
         <img class="imagenes" src="img/ecopetrol.jpg" alt="Logo de Ecopetrol">
     </div>
 
-    <a href="eliminar_cookie">Delete cookie</a>
+    <a href="eliminar_cookie.php">Eliminar Cookie</a>
 
 </body>
 

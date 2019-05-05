@@ -51,7 +51,7 @@
         <img class="imagenes" src="" alt="Logo de avianca">
     </div>
 
-    <a href="eliminar_cookie">Delete cookie</a>
+    <a href="eliminar_cookie.php">Eliminar Cookie</a>
 
 </body>
 
