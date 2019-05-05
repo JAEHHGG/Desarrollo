@@ -11,7 +11,8 @@ body {
 /* Container */
 .container {
     background-color: whitesmoke;
-    opacity: .9;
+    opacity: .8;
+    border-radius: 10px;
 }
 
 /* Nav Bar */
