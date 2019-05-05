@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+/* Fondo */
+body {
+    font-family: 'poppins', sans-serif;
+    background: url(img/imagen-fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
 /* Nav Bar */
 .navbar {
     background: #3f704d;
