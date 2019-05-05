@@ -49,82 +49,87 @@
 
     <!-- Seleccione práctica -->
 
-    <p>Seleccione su práctica</p>
-    <form action="#">
-        <p>
-            <label>
-                <input name="group1" type="radio" checked />
-                <span>Nestlé</span>
-            </label>
-        </p>
-        <p>
-            <label>
-                <input name="group1" type="radio" />
-                <span>Compensar</span>
-            </label>
-        </p>
-        <p>
-            <label>
-                <input class="with-gap" name="group1" type="radio" />
-                <span>Bancolombia</span>
-            </label>
-        </p>
-        <p>
-            <label>
-                <input name="group1" type="radio" disabled="disabled" />
-                <span>Brinsa S.A</span>
-            </label>
-        </p>
-                <p>
-            <label>
-                <input class="with-gap" name="group1" type="radio" />
-                <span>Ecopetrol</span>
-            </label>
-        </p>
-                <p>
-            <label>
-                <input class="with-gap" name="group1" type="radio" />
-                <span>Loreal</span>
-            </label>
-        </p>
-                <p>
-            <label>
-                <input class="with-gap" name="group1" type="radio" />
-                <span>EAN</span>
-            </label>
-        </p>
-                <p>
-            <label>
-                <input class="with-gap" name="group1" type="radio" />
-                <span>Cruz Verde</span>
-            </label>
-        </p>
-                <p>
-            <label>
-                <input class="with-gap" name="group1" type="radio" />
-                <span>Avianca</span>
-            </label>
-        </p>
-                <p>
-            <label>
-                <input class="with-gap" name="group1" type="radio" />
-                <span>Latam</span>
-            </label>
-        </p>
-                <p>
-            <label>
-                <input class="with-gap" name="group1" type="radio" />
-                <span>Everis</span>
-            </label>
-        </p>
-                <p>
-            <label>
-                <input class="with-gap" name="group1" type="radio" />
-                <span>Texmoda</span>
-            </label>
-        </p>
+    <div class="container fluid">
 
-    </form>
+        <h1>Seleccione su práctica</h1>
+
+        <form action="#">
+            <p>
+                <label>
+                    <input name="group1" type="radio" checked />
+                    <span>Nestlé</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="group1" type="radio" />
+                    <span>Compensar</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Bancolombia</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="group1" type="radio" disabled="disabled" />
+                    <span>Brinsa S.A</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Ecopetrol</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Loreal</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>EAN</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Cruz Verde</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Avianca</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Latam</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Everis</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input class="with-gap" name="group1" type="radio" />
+                    <span>Texmoda</span>
+                </label>
+            </p>
+
+        </form>
+
+    </div>
 
 </body>
 
