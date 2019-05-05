@@ -8,6 +8,12 @@ body {
 }
 
 
+/* Container */
+.container {
+    background-color: whitesmoke;
+    opacity: .9;
+}
+
 /* Nav Bar */
 .navbar {
     background: #3f704d;
