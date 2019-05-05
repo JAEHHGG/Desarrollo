@@ -51,7 +51,7 @@
 
     <div class="container fluid">
 
-        <h3 class="center-align">Seleccione su práctica</h3>
+        <h3 class="center-align">Seleccione su Práctica</h3>
 
         <form action="#">
             <p>
@@ -60,11 +60,17 @@
                     <span>Nestlé</span>
                 </label>
             </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+            </p>
             <p>
                 <label>
                     <input name="group1" type="radio" />
                     <span>Compensar</span>
                 </label>
+            </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -72,11 +78,17 @@
                     <span>Bancolombia</span>
                 </label>
             </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+            </p>
             <p>
                 <label>
                     <input name="group1" type="radio" />
                     <span>Brinsa S.A</span>
                 </label>
+            </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -84,11 +96,17 @@
                     <span>Ecopetrol</span>
                 </label>
             </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+            </p>
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Loreal</span>
                 </label>
+            </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -96,11 +114,17 @@
                     <span>EAN</span>
                 </label>
             </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+            </p>
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Cruz Verde</span>
                 </label>
+            </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -108,11 +132,17 @@
                     <span>Avianca</span>
                 </label>
             </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+            </p>
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Latam</span>
                 </label>
+            </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
             <p>
                 <label>
@@ -120,19 +150,21 @@
                     <span>Everis</span>
                 </label>
             </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+            </p>
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Texmoda</span>
                 </label>
             </p>
+            <p class="center-align">
+                <a class="waves-effect waves-light btn-small">Seleccionar</a>
+            </p>
 
         </form>
 
-        <p class="center-align">
-            <a class="waves-effect waves-light btn-large boton center-align">Seleccionar</a>
-        </p>
-        <br>
 
     </div>
 
