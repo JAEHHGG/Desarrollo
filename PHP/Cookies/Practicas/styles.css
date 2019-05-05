@@ -59,3 +59,9 @@ p {
 .boton {
     align-content: center;
 }
+
+/* Imagenes */
+.imagenes {
+    display: block;
+    margin: auto;
+}

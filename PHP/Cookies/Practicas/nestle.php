@@ -47,7 +47,7 @@
     <br>
 
     <div>
-    <img class="imagenes" src="img/nestle.png" alt="Logo de avianca">
+    <img class="imagenes" src="img/nestle.png" alt="Logo de Nestle">
     </div>
 
 
