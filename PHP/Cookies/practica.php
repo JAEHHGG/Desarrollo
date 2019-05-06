@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+
+    <!--
+    * En head encontramos todos los cdn y demás librerias que incluyen varias funcionalidades:
+    * Jquery version 3.3.1
+    * Bootstrap 4.3.1 & 4.3.1
+    * Fontawesome 5.7.2
+    * Materialize 1.0.0
+    -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cookies</title>
@@ -16,7 +25,8 @@
 
 <body>
 
-    <!-- Barra de Navegación -->
+    <!-- Barra de Navegación que nos proporciona varias obciones de modificación con bootstrap y permite una gran variedad de clases que se adecuan a las preferencias de las personas -->
+
     <nav class="navbar navbar-expand-lg fixed-top ">
         <a class="navbar-brand" href="#">PC</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,10 +59,22 @@
 
     <!-- Seleccione práctica -->
 
+    <!--
+    * En este elemento div que tomamos como contenedor, se encuentra las prácticas ofrecidas por Practicas Colombia, donde se puede seleccionar una de ellas y con la lógica de php, almacenar cookies.
+
+    * Cada Botón está referenciado al archivo crer_cookie.php y tienen el valor añadido de práctica y su respectiva abreviación teniendo en cuenta el nombre de la empresa. Ejemplo: Nestlé = ns.
+
+    * El elemento form esta desarrollado con el framework de CSS, llamado materialize y está predefinido con sus respectivos estilos
+
+    -->
+
     <div class="container fluid">
 
         <h3 class="center-align">Seleccione su Práctica</h3>
 
+        <!--
+        * Form con estilos en materialize, predeterminada.
+        -->
         <form action="#">
             <p>
                 <label>
@@ -60,105 +82,164 @@
                     <span>Nestlé</span>
                 </label>
             </p>
+            <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = 'ns'.
+            * Valor: ''
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=ns" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input name="group1" type="radio" />
                     <span>Compensar</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = 'cp'.
+            * Valor: ''
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=cp" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Bancolombia</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = 'bc'.
+            * Valor: ''
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=bc" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input name="group1" type="radio" />
                     <span>Brinsa S.A</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = 'br'.
+            * Valor: ''
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=br" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Ecopetrol</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = 'ec'.
+            * Valor: ''
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=ec" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Loreal</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = 'lr'.
+            * Valor: ''
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=lr" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>EAN</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = 'ea'.
+            * Valor: ''
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=ea" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Cruz Verde</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = ''.
+            * Valor: 'cv'
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=cv" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Avianca</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = ''.
+            * Valor: 'av'
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=av" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Latam</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = ''.
+            * Valor: 'lt'
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=lt" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Everis</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = ''.
+            * Valor: 'evr'
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=evr" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>
+
             <p>
                 <label>
                     <input class="with-gap" name="group1" type="radio" />
                     <span>Texmoda</span>
                 </label>
             </p>
+             <!--
+            * Botón con estilos en mateialize donde se referencia el archivo crear_cookie.php y tiene su correspondiente valor practica = ''.
+            * Valor: 'tx'
+            -->
             <p class="center-align">
                 <a href="crear_cookie.php?practica=tx" class="waves-effect waves-light btn-small">Seleccionar</a>
             </p>

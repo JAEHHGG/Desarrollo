@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+
+    <!--
+    * En head encontramos todos los cdn y demás librerias que incluyen varias funcionalidades:
+    * Jquery version 3.3.1
+    * Bootstrap 4.3.1 & 4.3.1
+    * Fontawesome 5.7.2
+    * Materialize 1.0.0
+    -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
@@ -16,7 +25,8 @@
 
 <body>
 
-    <!-- Barra de Navegación -->
+     <!-- Barra de Navegación que nos proporciona varias obciones de modificación con bootstrap y permite una gran variedad de clases que se adecuan a las preferencias de las personas -->
+
     <nav class="navbar navbar-expand-lg fixed-top ">
         <a class="navbar-brand" href="#">PC</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,11 +57,22 @@
     <br>
     <br>
 
+    <!--
+    * Imagen que representa el logo de cada una de las empresas disponibles por prácticas colombia.
+    * Clase referenciada en estilos: 'imagenes'.
+    * Alt: depende de la empresa: Logo de
+    -->
     <div>
         <img class="imagenes" src="img/nestle.png" alt="Logo de Nestle">
     </div>
+
     <br>
     <br>
+
+    <!--
+    * En este link, se direcciona al archivo: 'eliminar_cookie.php' donde se eliminará la cookie almacenada.
+    * Archivo Referenciado: 'eliminar_cookie.php'.
+    -->
     <center>
         <p>
             <a href="eliminar_cookie.php">Eliminar Cookie</a>
